@@ -5,6 +5,7 @@ nome = input("Informe seu nome: ")
 while len(nome) <= 3:
     nome = input("Informe seu nome(com mais de 3 letras")
 
+
 'idade'
 
 idade = input("Informe uma idade entre 0 e 150: ")
@@ -16,22 +17,24 @@ while True:
 
     idade = input("Informe uma idade entre 0 e 150: ")
 
-'salario'
+
+
+#salario
 salario = input("Informe seu salario: ")
+
+#verifica se todos os caracteres são numericos. Simbolos como - e + fazem o isnumeric dar false
 while not salario.isnumeric():
     salario = input("Informe sua salario(numeros): ")
 
 salario = int(salario)
 
-while salario <= 0:
-    salario = int(input("Informe um salario maior que zero: "))
-
 
 'sexo'
 sexo = input("informe seu sexo (f ou m): ")
 
-while sexo!="f"and sexo!="m":
+while sexo!= "f" and sexo!="m":
     sexo = input("informe seu sexo (f ou m): ")
+
 
 
 'Estado Civil'
