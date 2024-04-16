@@ -11,9 +11,7 @@ if num2 < num1:
     num2 = num1
     num1 = aux
 
-i = num1
-
-while i < num2 - 1:
-    i += 1
-    print(i)
+while num1 < num2 - 1:
+    num1 += 1
+    print(num1, end=' ')
 
