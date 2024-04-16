@@ -1,6 +1,11 @@
-valor = int(input("insira um numero: "))
+#exercicio1
 
-i = 1
-while i<=10:
-    print(f"{valor} x {i} = {valor*i}")
-    i+=1
+j = 1
+while j < 10:
+    i = 1
+    while i <= 10:
+        print(f"{j} x {i} = {j*i}")
+        i+=1
+
+    j += 1
+    print(' ')
