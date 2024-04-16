@@ -15,7 +15,6 @@ while i < num:
     termo3 = termo1+termo2
     termo1 = termo2
     termo2 = termo3
-
     i +=1
-    
     print(f"o {i}° termo é: {termo1}")
+
