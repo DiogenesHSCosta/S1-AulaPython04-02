@@ -1,3 +1,10 @@
+#Exercicio 9
+
+'''
+Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de
+números pares e a quantidade de números ímpares.
+'''
+
 i = 0
 pares = 0
 
