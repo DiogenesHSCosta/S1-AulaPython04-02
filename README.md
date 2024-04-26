@@ -1,1 +1,3 @@
-# S1-AulaPython04-02
+# Lista de exercicios utilizando a propriedade while em python
+
+
